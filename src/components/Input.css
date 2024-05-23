@@ -10,6 +10,7 @@
 .result {
     flex: 1;
     font-size: 24px;
+    width: 100%;
 }
 
 .text {

@@ -7,7 +7,15 @@
     background-color: #5a5a5a;
     color: white;
     flex: 1;
-
     margin: 2px;
     border-radius: 30px;
+    caret-color: transparent;
+    cursor: pointer;
+    border: 1px solid red
+}
+.button-wrapper:hover {
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
 }
